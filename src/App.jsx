@@ -1,4 +1,5 @@
-import FeatureLeast from "./components/FeatureLeast";
+import { DraggableCard } from "./components/DraggableCard";
+import "./App.css";
 
 export default function App() {
   return (
@@ -13,7 +14,7 @@ export default function App() {
         color: "white",
       }}
     >
-      <FeatureLeast />
+      <DraggableCard />
     </div>
   );
 }
