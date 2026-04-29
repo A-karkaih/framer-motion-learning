@@ -1,5 +1,5 @@
-import { DraggableCard } from "./components/DraggableCard";
 import "./App.css";
+import { DismissableAlert } from "./components/DismissableAlert";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         color: "white",
       }}
     >
-      <DraggableCard />
+      <DismissableAlert />
     </div>
   );
 }
