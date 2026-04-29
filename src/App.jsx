@@ -1,5 +1,5 @@
 import "./App.css";
-import { DismissableAlert } from "./components/DismissableAlert";
+import { CollapsibleList } from "./components/CollapsibleList";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         color: "white",
       }}
     >
-      <DismissableAlert />
+      <CollapsibleList />
     </div>
   );
 }

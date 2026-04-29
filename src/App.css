@@ -36,3 +36,16 @@
 button:hover {
   cursor: pointer;
 }
+.card2 {
+  width: max-content;
+  padding: 20px;
+  border-radius: 12px;
+  background: white;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  font-size: 18px;
+  font-weight: 600;
+  text-align: center;
+  cursor: grab;
+  color: black;
+  user-select: none;
+}
