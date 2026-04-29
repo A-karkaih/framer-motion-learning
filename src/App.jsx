@@ -1,4 +1,5 @@
-import AnimatedButton from "./AnimatedButton";
+import FeatureLeast from "./components/FeatureLeast";
+
 export default function App() {
   return (
     <div
@@ -9,10 +10,10 @@ export default function App() {
         justifyContent: "center",
         alignItems: "center",
         gap: "10px",
+        color: "white",
       }}
     >
-      <AnimatedButton>Get Started </AnimatedButton>
-      <AnimatedButton damping={10}>Achraf</AnimatedButton>
+      <FeatureLeast />
     </div>
   );
 }
