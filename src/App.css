@@ -59,3 +59,31 @@ button:hover {
   align-items: center;
   border-radius: 12px;
 }
+
+/* Main app container */
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  color: white;
+  margin-top: 100px;
+}
+
+/* Navigation styling */
+.nav {
+  margin-bottom: 20px;
+}
+
+.nav-links {
+  display: flex;
+  gap: 15px;
+}
+
+/* Page wrapper styling to contain content */
+.page {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+  padding: 20px;
+}
