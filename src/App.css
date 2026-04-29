@@ -49,3 +49,13 @@ button:hover {
   color: black;
   user-select: none;
 }
+
+.badge-live {
+  width: 80px;
+  height: 30px;
+  background-color: rgba(198, 28, 255, 0.4);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12px;
+}

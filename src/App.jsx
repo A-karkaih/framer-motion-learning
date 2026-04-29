@@ -1,5 +1,5 @@
 import "./App.css";
-import { CollapsibleList } from "./components/CollapsibleList";
+import { LiveBadge } from "./components/LiveBadge";
 
 export default function App() {
   return (
@@ -14,7 +14,7 @@ export default function App() {
         color: "white",
       }}
     >
-      <CollapsibleList />
+      <LiveBadge />
     </div>
   );
 }
