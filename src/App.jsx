@@ -1,4 +1,4 @@
-import { motion } from "motion/react";
+import AnimatedButton from "./AnimatedButton";
 export default function App() {
   return (
     <div
@@ -8,22 +8,11 @@ export default function App() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
+        gap: "10px",
       }}
     >
-      <motion.div
-        style={{ textAlign: "center" }}
-        initial={{
-          opacity: 0,
-          y: 300,
-        }}
-        animate={{
-          opacity: 1,
-          y: 0,
-        }}
-        transition={{ duration: 2, ease: "easeInOut" }}
-      >
-        <motion.h1>Hello world </motion.h1>
-      </motion.div>
+      <AnimatedButton>Get Started </AnimatedButton>
+      <AnimatedButton damping={10}>Achraf</AnimatedButton>
     </div>
   );
 }
